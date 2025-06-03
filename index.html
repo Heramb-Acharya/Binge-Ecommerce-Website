@@ -53,10 +53,10 @@
         <p id="prodheading-p">Latest Fashion. Look Stylish</p>
         <div class="product-container">
             <div class="product1" onclick="window.location.href='product.html'">
-                <img src="img/clothes/2.jpg" alt="product1">
+                <img src="img/clothes/4.png" alt="product1">
                 <div class="description">
                     <span>Branded</span>
-                    <h5>Retro Waves Knit Dress</h5>
+                    <h5>Outcast Statement Tee</h5>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -125,10 +125,10 @@
             </div>
 
             <div class="product1">
-                <img src="img/clothes/4.png" alt="product1" onclick="window.location.href='product.html'">
+                <img src="img/clothes/2.jpg" alt="product1" onclick="window.location.href='product.html'">
                 <div class="description">
                     <span>Branded</span>
-                    <h5>Outcast Statement Tee</h5>
+                    <h5>Retro Waves Knit Dress</h5>
                     <div class="star">
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -341,7 +341,8 @@
     }
 
     // Event listeners
-    document.getElementById('closeCart').onclick = closeSidecart;
+      document.querySelector('.single-product-details button').onclick = addToCart;
+   document.getElementById('closeCart').onclick = closeSidecart;
     document.getElementById('sidecartOverlay').onclick = closeSidecart;
     document.querySelector('.navbar-links li:last-child a').onclick = function(e) {
         e.preventDefault();
