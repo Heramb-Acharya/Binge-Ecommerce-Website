@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binge - Clothing for your style.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="sidecart-overlay" id="sidecartOverlay"></div>
+<div class="sidecart" id="sidecart">
+    <div class="sidecart-header">
+        <h3>Shopping Cart</h3>
+        <button class="close-cart" id="closeCart">&times;</button>
+    </div>
+    <div class="sidecart-items" id="cartItems">
+        
+    </div>
+    <div class="sidecart-footer">
+        <div class="cart-total">
+            <strong>Total: Rs. <span id="cartTotal">0</span></strong>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+    <div class="header">
+        <a href="index.html"><div class="logo"></div></a>
+
+        <ul class="navbar-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+    </div>
+
+
+<div class="product-details">
+    <div class="single-product-image section1">
+        <img src="img/clothes/4.png" width="100%" id="MainImg" alt="">
+
+        <div class="small-image-group">
+            <div class="small-image-col">
+                <img src="img/clothes/4.png" width="100%" class="SmallImg" alt="">
+            </div>
+            <div class="small-image-col">
+                <img src="img/clothes/5.png" width="100%" class="SmallImg" alt="">
+            </div>
+            <div class="small-image-col">
+                <img src="img/clothes/6.png" width="100%" class="SmallImg" alt="">
+            </div>
+            <div class="small-image-col">
+                <img src="img/clothes/7.png" width="100%" class="SmallImg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="single-product-details">
+        <h6>Home / T-shirts</h6>
+        <h4>Outcast Statement Tee</h4>
+        <h2>Rs. 799</h2>
+        <select>
+            <option>Select Size</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+        </select>
+        <input type="number" min="1" max="10" value="1" step="1">
+        <button>Add To Cart</button>
+        <h4>Product Details</h4>
+        <p>The Outcast Statement Tee is a bold and stylish shirt made from 100% soft cotton, designed for those who want to express their individuality. Featuring a striking graphic print and a comfortable relaxed fit, this tee is perfect for everyday wear or making a statement at casual outings. Durable and easy to care for, it combines comfort with edgy style effortlessly.</p>
+    </div>
+</div>
+
+<div class="product-features">
+        <div class="container">
+            <h2 class="section-title">Product Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Breathable Design</h3>
+                    <p>Advanced technology keeps you cool and dry during intense workouts</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Durable Build</h3>
+                    <p>Premium materials ensure long-lasting performance and resistance to wear</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>No-Spill Technology</h3>
+                    <p>Proprietory No-spill technology ensures you remain ever-presentable and spotlessly clean</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <h3>Lightweight</h3>
+                    <p>Engineered to be ultra-breathable without compromising on comfort</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">RS</div>
+                        <div class="reviewer-info">
+                            <h4>Rohit Shetty</h4>
+                            <div class="review-date">May 15, 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">
+                        "Absolutely love the fabric quality! The shirt fits perfectly and feels super soft. Will definitely shop again."
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">SK</div>
+                        <div class="reviewer-info">
+                            <h4>Sangam Kumar</h4>
+                            <div class="review-date">May 10, 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★★</div>
+                    <p class="review-text">
+                        "Delivery was quick and the packaging was neat. The color was exactly as shown on the website!"
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">VS</div>
+                        <div class="reviewer-info">
+                            <h4>Virat Sharma</h4>
+                            <div class="review-date">May 8, 2025</div>
+                        </div>
+                    </div>
+                    <div class="review-rating">★★★★☆</div>
+                    <p class="review-text">
+                        "Stylish, comfy, and affordable — what more could I ask for? Got compliments the first time I wore it!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="featured-products">
+    <div class="products">
+        <h2 id="prodheading">Featured Products</h2>
+        <p id="prodheading-p">Latest Fashion. Look Stylish</p>
+        <div class="product-container">
+            <div class="product1" onclick="window.location.href='product.html'">
+                <img src="img/clothes/2.jpg" alt="product1">
+                <div class="description">
+                    <span>Branded</span>
+                    <h5>Retro Waves Knit Dress</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs. 799</h4>
+                </div>
+                <div class="cart-icon">
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></div>
+            </div>
+
+        <div class="product1">
+                <img src="img/clothes/1.jpg" alt="product1" onclick="window.location.href='product.html'">
+                <div class="description">
+                    <span>Branded</span>
+                    <h5>Urban Luxe Striped Blazer</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs. 899</h4>
+                </div>
+                <div class="cart-icon">
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></div>
+            </div>
+
+            <div class="product1">
+                <img src="img/clothes/3.jpg" alt="product1" onclick="window.location.href='product.html'">
+                <div class="description">
+                    <span>Branded</span>
+                    <h5>Graphic Tee</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs. 1499</h4>
+                </div>
+                <div class="cart-icon">
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></div>
+            </div>
+
+                        <div class="product1">
+                <img src="img/clothes/8.png" alt="product1" onclick="window.location.href='product.html'">
+                <div class="description">
+                    <span>Branded</span>
+                    <h5>Classic Summer Crew Tee</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h4>Rs. 999</h4>
+                </div>
+                <div class="cart-icon">
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="newsletter">
+        <div class="newstext">
+            <h4>Sign Up For Our Newsletter</h4>
+            <p>Give us your mail to receive updates on the latest offers</p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Enter Email">
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="col">
+            <div class="logo"></div>
+            <div class="contact">
+                <h4>Contact</h4>
+                <p><strong>Address :</strong> SRM University, Chennai</p>
+                <p><strong>Phone :</strong> +91 9879879871</p>
+                <p><strong>Hours :</strong> 10am to 6pm, Monday to Saturday</p>
+            </div>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="follow-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Offers</h4>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Offers</a>
+            <a href="#">Categories</a>
+        </div>
+
+        <div class="col">
+            <h4>Other Links</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Legal Information</a>
+            <a href="#">Terms</a>
+            <a href="#">Enquire</a>
+        </div>
+
+              <div class="col">
+            <h4>Account</h4>
+            <a href="#">Profile</a>
+            <a href="#">Sign In</a>
+            <a href="#">My Orders</a>
+            <a href="#">Logout</a>
+            <a href="#">Account Details</a>
+        </div>
+</div>
+
+ <div class="end">
+            <p>Made with <i class="fa-solid fa-heart"></i> by a WebDeveloper</p>
+        </div>
+
+<script>
+    // Image switching functionality
+    var MainImg = document.getElementById("MainImg");
+    var SmallImg = document.getElementsByClassName("SmallImg");
+
+    SmallImg[0].onclick = function() {
+        MainImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function() {
+        MainImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function() {
+        MainImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function() {
+        MainImg.src = SmallImg[3].src;
+    }
+
+    // Cart functionality
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    function updateCartDisplay() {
+        const cartItems = document.getElementById('cartItems');
+        const cartTotal = document.getElementById('cartTotal');
+        const cartBadge = document.querySelector('.cart-badge');
+        
+        if (cart.length === 0) {
+            cartItems.innerHTML = '<div class="empty-cart">Your cart is empty</div>';
+            cartTotal.textContent = '0';
+        } else {
+            cartItems.innerHTML = cart.map(item => `
+                <div class="cart-item">
+                    <img src="${item.image}" alt="${item.name}">
+                    <div class="cart-item-details">
+                        <h5>${item.name}</h5>
+                        <p>Size: ${item.size}</p>
+                        <div class="quantity-controls">
+                            <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
+                            <span class="quantity-display">${item.quantity}</span>
+                            <button class="quantity-btn" onclick="updateQuantity(${item.id}, 1)">+</button>
+                            <button class="remove-item" onclick="removeFromCart(${item.id})">Remove</button>
+                        </div>
+                    </div>
+                    <div class="cart-item-price">Rs. ${item.price * item.quantity}</div>
+                </div>
+            `).join('');
+            
+            const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            cartTotal.textContent = total;
+        }
+        
+        // Update cart badge
+        const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+        if (cartBadge) {
+            cartBadge.textContent = totalItems;
+            cartBadge.style.display = totalItems > 0 ? 'flex' : 'none';
+        } else if (totalItems > 0) {
+            const cartIcon = document.querySelector('.navbar-links li:last-child');
+            cartIcon.innerHTML += `<span class="cart-badge">${totalItems}</span>`;
+        }
+    }
+
+    function addToCart() {
+        const size = document.querySelector('select').value;
+        const quantity = parseInt(document.querySelector('input[type="number"]').value);
+        
+        if (size === 'Select Size') {
+            alert('Please select a size');
+            return;
+        }
+        
+        const product = {
+            id: Date.now(),
+            name: 'Outcast Statement Tee',
+            price: 799,
+            size: size,
+            quantity: quantity,
+            image: 'img/clothes/4.png'
+        };
+        
+        cart.push(product);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCartDisplay();
+        openSidecart();
+    }
+
+    function updateQuantity(id, change) {
+        const item = cart.find(item => item.id === id);
+        if (item) {
+            item.quantity += change;
+            if (item.quantity <= 0) {
+                removeFromCart(id);
+            } else {
+                localStorage.setItem('cart', JSON.stringify(cart));
+                updateCartDisplay();
+            }
+        }
+    }
+
+    function removeFromCart(id) {
+        cart = cart.filter(item => item.id !== id);
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCartDisplay();
+    }
+
+    function openSidecart() {
+        document.getElementById('sidecart').classList.add('active');
+        document.getElementById('sidecartOverlay').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeSidecart() {
+        document.getElementById('sidecart').classList.remove('active');
+        document.getElementById('sidecartOverlay').classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+
+    // Event listeners
+    document.querySelector('.single-product-details button').onclick = addToCart;
+    document.getElementById('closeCart').onclick = closeSidecart;
+    document.getElementById('sidecartOverlay').onclick = closeSidecart;
+    document.querySelector('.navbar-links li:last-child a').onclick = function(e) {
+        e.preventDefault();
+        openSidecart();
+        document.querySelector('.navbar-links li:last-child a').onclick = function(e) {
+    e.preventDefault();
+    openSidecart();
+};
+    };
+
+    // Initialize cart display
+    updateCartDisplay();
+</script>
+
+</body>
+</html>
