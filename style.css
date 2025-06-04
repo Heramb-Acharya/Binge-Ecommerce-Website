@@ -347,7 +347,7 @@
 }
 
 
-/********** PRODUCT DETAILS PAGE ***********/
+/*PRODUCT DETAILS PAGE*/
 
 .product-details{
     display:flex;
@@ -586,7 +586,6 @@ input[type="number"] {
 
 /*cart*/
 
-/* Mini Sidecart Styles */
 .sidecart-overlay {
     position: fixed;
     top: 0;
@@ -807,7 +806,7 @@ input[type="number"] {
 
 /* RESPONSIVE DESIGN */
 
-/* Large tablets and small desktops (1024px and below) */
+
 @media (max-width: 1024px) {
     .header {
         padding: 20px 40px;
@@ -847,8 +846,8 @@ input[type="number"] {
     }
 }
 
-/* Tablets (820px and below) */
-@media (max-width: 850px) {
+
+@media (max-width:920px) {
     .header {
         padding: 15px 20px;
         flex-direction: column;
@@ -972,7 +971,7 @@ input[type="number"] {
     }
 }
 
-/* Mobile phones (480px and below) */
+
 @media (max-width: 480px) {
     .header {
         padding: 10px 15px;
@@ -1127,7 +1126,7 @@ input[type="number"] {
 
 .single-product-details {
     width: 100%;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
    .sidecart {
@@ -1138,10 +1137,8 @@ input[type="number"] {
 
 }
 
-/* Fill gaps between existing breakpoints */
 
-/* Large screens (1200px and above) */
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .header {
         padding: 20px 100px;
     }
@@ -1156,38 +1153,6 @@ input[type="number"] {
     
     .newsletter {
         padding: 40px 100px;
-    }
-}
-
-/* Medium tablets (600px to 767px) */
-@media (min-width: 600px) and (max-width: 850px) {
-    .product1 {
-        width: 48%;
-        min-width: 250px;
-    }
-    
-    .form {
-        width: 60%;
-    }
-}
-
-/* Small tablets (481px to 599px) */
-@media (min-width: 481px) and (max-width: 599px) {
-    .hero h3 {
-        font-size: 1.6rem;
-    }
-    
-    .hero p {
-        font-size: 1.3rem;
-    }
-    
-    #heading1, #heading2 {
-        font-size: 2rem;
-    }
-    
-    .product1 {
-        width: 48%;
-        min-width: 240px;
     }
 }
 
