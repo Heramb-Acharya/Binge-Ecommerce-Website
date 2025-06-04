@@ -405,16 +405,6 @@
     cursor:pointer;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: auto;
-    margin: 0;
-}
-
-input[type="number"] {
-    -moz-appearance: textfield; /* Remove this line if it exists */
-}
-
 .single-product-details button{
   font-size: 0.9rem;
   font-weight: 500;
