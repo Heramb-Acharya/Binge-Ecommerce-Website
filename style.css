@@ -1117,6 +1117,7 @@ input[type="number"] {
     .product-details{
         display:flex;
         flex-direction:column;
+        width:100%;
     }
 
     .single-product-image {
@@ -1124,108 +1125,20 @@ input[type="number"] {
     /* margin-right: 50px; */
 }
 
+.single-product-details {
+    width: 100%;
+    padding-left: 20px;
 }
 
-/* Extra small devices (360px and below) */
-@media (max-width: 360px) {
-    .header {
-        padding: 8px 10px;
-    }
-    
-    .navbar-links {
-        flex-direction: column;
-        gap: 5px;
-    }
-    
-    .navbar-links li {
-        padding: 3px 5px;
-    }
-    
-    .hero {
-        padding: 25px 10px;
-        height: auto;
-        min-height: 45vh;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        background-position: center center;
-        background-size: cover;
-    }
-    
-    .hero h3 {
-        font-size: 1.2rem;
-        padding-bottom: 6px;
-        line-height: 1.3;
-    }
-    
-    .hero p {
-        font-size: 1rem;
-        padding-bottom: 12px;
-        line-height: 1.4;
-    }
-    
-    #heading1, #heading2 {
-        font-size: 1.4rem;
-        line-height: 1.2;
-    }
-    
-    #heading2 {
-        padding-bottom: 10px;
-    }
-    
-    .hero button {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-        margin-top: 10px;
-    }
-    
-    .products {
-        padding: 10px 10px 20px;
-        
-    }
-    
-    #prodheading {
-        font-size: 1.3rem;
-    }
-    
-    #prodheading-p {
-        font-size: 1rem;
-    }
-    
-    .product-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-    }
-    
-    .product1 {
-        width: 95%;
-        max-width: 300px;
-        min-width: unset;
-        margin: 0;
-    }
-    
-    .newsletter {
-        padding: 15px 10px;
-    }
-    
-    .footer {
-        padding: 15px 10px;
-    }
-}
-
-
-/* Mobile responsiveness for sidecart */
-@media (max-width: 480px) {
-    .sidecart {
+ .sidecart {
         width: 100%;
         right: -100%;
     }
+
+
 }
 
-/* Fill gaps between existing breakpoints */
 
-/* Large screens (1200px and above) */
 @media (min-width: 1200px) {
     .header {
         padding: 20px 100px;
@@ -1244,7 +1157,7 @@ input[type="number"] {
     }
 }
 
-/* Medium tablets (600px to 767px) */
+
 @media (min-width: 600px) and (max-width: 767px) {
     .product1 {
         width: 48%;
@@ -1256,7 +1169,7 @@ input[type="number"] {
     }
 }
 
-/* Small tablets (481px to 599px) */
+
 @media (min-width: 481px) and (max-width: 599px) {
     .hero h3 {
         font-size: 1.6rem;
@@ -1273,86 +1186,5 @@ input[type="number"] {
     .product1 {
         width: 48%;
         min-width: 240px;
-    }
-}
-
-/* Very small screens (below 360px) */
-@media (max-width: 320px) {
-    .header {
-        padding: 5px 8px;
-    }
-    
-    .logo {
-        height: 35px;
-        width: 90px;
-    }
-    
-    .hero {
-        padding: 20px 8px;
-        min-height: 40vh;
-    }
-    
-    .hero h3 {
-        font-size: 1.1rem;
-    }
-    
-    .hero p {
-        font-size: 0.9rem;
-    }
-    
-    #heading1, #heading2 {
-        font-size: 1.3rem;
-    }
-    
-    .hero button {
-        font-size: 0.8rem;
-        padding: 6px 14px;
-    }
-    
-    .products {
-        padding: 8px 8px 15px;
-    }
-    
-    #prodheading {
-        font-size: 1.2rem;
-    }
-    
-    #prodheading-p {
-        font-size: 0.9rem;
-    }
-    
-    .newsletter {
-        padding: 12px 8px;
-    }
-    
-    .footer {
-        padding: 12px 8px;
-    }
-    
-    .sidecart {
-        width: 100%;
-    }
-}
-
-/* Landscape orientation for mobile devices */
-@media (max-height: 500px) and (orientation: landscape) {
-    .hero {
-        height: auto;
-        min-height: 70vh;
-        padding: 15px 20px;
-    }
-    
-    .hero h3 {
-        font-size: 1.5rem;
-        padding-bottom: 8px;
-    }
-    
-    .hero p {
-        font-size: 1.2rem;
-        padding-bottom: 12px;
-    }
-    
-    #heading1, #heading2 {
-        font-size: 1.8rem;
     }
 }
