@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
 }
 
 /* Header */
@@ -762,18 +763,18 @@ input[type="number"] {
 .checkout-btn {
     width: 100%;
     padding: 12px;
-    background: #4f8379;
+    background-color: #4f8379;
     color: white;
     border: none;
     border-radius: 6px;
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: background 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 .checkout-btn:hover {
-    background: #3f6d63;
+    background-color: #3f6d63;
 }
 
 .empty-cart {
