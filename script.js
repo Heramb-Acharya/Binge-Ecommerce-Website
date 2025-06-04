@@ -1,10 +1,9 @@
-// Image switching functionality (for product.html)
+// Image switching (for product.html)
 document.addEventListener('DOMContentLoaded', function() {
     var MainImg = document.getElementById("MainImg");
     var SmallImg = document.getElementsByClassName("SmallImg");
 
-    // Only run image switching code if elements exist (product page)
-    if (MainImg && SmallImg.length > 0) {
+    
         SmallImg[0].onclick = function() {
             MainImg.src = SmallImg[0].src;
         }
@@ -17,10 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
         SmallImg[3].onclick = function() {
             MainImg.src = SmallImg[3].src;
         }
-    }
 });
 
-// Cart functionality
+// Cart 
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 function updateCartDisplay() {
@@ -129,28 +127,28 @@ function closeSidecart() {
     document.body.style.overflow = 'auto';
 }
 
-// Event listeners - wrapped in DOMContentLoaded to ensure elements exist
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Add to cart button (only exists on product page)
+   
     const addToCartBtn = document.querySelector('.single-product-details button');
     if (addToCartBtn) {
         addToCartBtn.onclick = addToCart;
     }
     
-    // Close cart button
+    
     const closeCartBtn = document.getElementById('closeCart');
     if (closeCartBtn) {
         closeCartBtn.onclick = closeSidecart;
     }
     
-    // Overlay click to close
+    
     const sidecartOverlay = document.getElementById('sidecartOverlay');
     if (sidecartOverlay) {
         sidecartOverlay.onclick = closeSidecart;
     }
     
-    // Cart icon click to open
-    const cartLink = document.querySelector('.navbar-links li:last-child a');
+    
+    const cartLink = document.querySelector('.navbar-links li:last-child');
     if (cartLink) {
         cartLink.onclick = function(e) {
             e.preventDefault();
@@ -158,6 +156,6 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
     
-    // Initialize cart display
+    
     updateCartDisplay();
 });
