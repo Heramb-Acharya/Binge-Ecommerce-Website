@@ -3,6 +3,7 @@
     padding:0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing:border-box;
+    /* overflow-x: hidden; */
 }
 
 /* Header */
@@ -210,8 +211,8 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background-image: url("img/news.png");
-    background-color:rgb(4, 4, 109);
+    background-image: url("img/newsletter.png");
+    background-color: rgba(8, 129, 120, 0.8);
     background-repeat: no-repeat;
     background-position:20% 30%;
     padding:40px 80px;
@@ -224,7 +225,7 @@
 }
 
 .newsletter p{
-    color:grey;
+    color:white;
 }
 
 .newsletter input{
@@ -783,47 +784,7 @@
 /* RESPONSIVE DESIGN */
 
 
-@media (max-width: 1024px) {
-    .header {
-        padding: 20px 40px;
-    }
-    
-    .hero {
-        padding: 0px 40px;
-    }
-    
-    .hero h3 {
-        font-size: 2.2rem;
-    }
-    
-    .hero p {
-        font-size: 1.8rem;
-    }
-    
-    #heading1, #heading2 {
-        font-size: 3rem;
-    }
-    
-    .products {
-        padding: 20px 40px;
-    }
-    
-    .product1 {
-        width: 22%;
-        min-width: 220px;
-    }
-    
-    .newsletter {
-        padding: 40px 40px;
-    }
-    
-    .form {
-        width: 45%;
-    }
-}
-
-
-@media (max-width:920px) {
+@media (max-width:1200px) {
     .header {
         padding: 15px 20px;
         flex-direction: column;
@@ -856,7 +817,7 @@
         align-items: center;
         justify-content: center;
         background-position: center;
-        background-attachment: scroll;
+        
     }
     
     .hero h3 {
@@ -971,9 +932,9 @@
         height: auto;
         min-height: 50vh;
         text-align: center;
-        align-items: center;
-        justify-content: center;
-        background-position: center center;
+        /* align-items: center;
+        justify-content: center; */
+        background-position: 55%;
         background-size: cover;
         background-attachment: scroll;
     }
@@ -1114,21 +1075,4 @@
 }
 
 
-@media (min-width: 1000px) {
-    .header {
-        padding: 20px 100px;
-    }
-    
-    .hero {
-        padding: 0px 100px;
-    }
-    
-    .products {
-        padding: 20px 100px;
-    }
-    
-    .newsletter {
-        padding: 40px 100px;
-    }
-}
 
